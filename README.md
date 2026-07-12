@@ -6,7 +6,7 @@ Email: crm782@nau.edu
 # Usage
 This is a program that uses ray tracing to render plane, sphere, and triangle primitives from a scene file into a pixel grid in a ppm file. To execute this program, run "make" in the program directory, and then run the command "./raycast ppm_width ppm_height input.scene output.ppm", with ppm_width and ppm_height being the width and height in pixels of the output file.
 
-This program now contains two ppm files to serve as textures, which will be mapped to the spheres listed in the current input.scene file.
+To test, run using the given sample input scene file.
 
 # Known Issues
 None to my knowledge.
