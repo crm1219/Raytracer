@@ -1,7 +1,7 @@
 img410scene
 camera width: 2 height: 2;
-sphere reflection: 0.10 texture: "sunrise_city.ppm" c_spec: 1 1 1 position: -3 1 -5 radius: 2;
-sphere texture: "lake.ppm" c_spec: 1 1 1 position: 3 1.65 -8 radius: 3.3;
+sphere reflection: 0.10 c_diff: 0.35 0 0.35 c_spec: 1 1 1 position: -3 1 -5 radius: 2;
+sphere c_dif: 0 0.5 1 c_spec: 1 1 1 position: 3 1.65 -8 radius: 3.3;
 plane reflection: 0.15 c_diff: 0 0.25 0.25 position: 0 -1 0 normal: 0 1 0;
 triangle reflection: 0.15 c_diff: 0 1 1 corner1: -2 -1 -4 corner2: 0 2 -4 corner3: 2 -1 -4;
 light color: 2 2 2 radial_a2: 0.125 radial_a1: 0.125 radial_a0: 0.125 position: 0 3 -1;
